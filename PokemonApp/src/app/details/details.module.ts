@@ -13,8 +13,8 @@ import { DetailsPage } from './details.page';
     CommonModule,
     FormsModule,
     IonicModule,
-    DetailsPageRoutingModule
+ DetailsPageRoutingModule,
+ DetailsPage
   ],
-  declarations: [DetailsPage]
 })
 export class DetailsPageModule {}

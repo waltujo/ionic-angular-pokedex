@@ -14,6 +14,10 @@ export class PokemonService {
     return this.http.get<any>(`${this.baseUrl}/pokemon?offset=${offset}&limit=${limit}`);
   }
 
+  getPokemonDetailsById(id: number) {
+  return this.http.get<any>(`https://pokeapi.co/api/v2/pokemon/${id}`);
+}
+
    getPokemonDetails(url: string) {
     return this.http.get<any>(url);
   }
